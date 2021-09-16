@@ -1,0 +1,32 @@
+{
+	"name": "hideous",
+	"publisher": "cwrussell",
+	"displayName": "hideous",
+	"description": "",
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+    "icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "hideous",
+				"uiTheme": "vs-dark",
+				"path": "./themes/hideous-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cwrussell/hideous-theme.git"
+	},
+	"__metadata": {
+		"id": "8c4b1d88-1f3c-48f8-a13a-03759be471fa",
+		"publisherDisplayName": "cwrussell",
+		"publisherId": "e01adb25-dfce-4e36-80c7-53f95ea328b4"
+	}
+}
